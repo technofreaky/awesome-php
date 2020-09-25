@@ -105,7 +105,7 @@
 			<div class="container">
 				<div class="leftside">
 					<img src="https://cdn.svarun.dev/gh/varunsridharan/sofy/pic1.jpg" alt="Sofy The Labrador"
-						 style="width: 50%;border-radius: 330px;">
+						 style="width: 50%;border-radius: 330px;"/>
 				</div>
 				<div class="rightside">
 					<span class="text_1">Hi There ! Myself Softy The Labrador</span>
