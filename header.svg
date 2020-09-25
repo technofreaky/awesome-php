@@ -1,0 +1,118 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				.container {
+				font-family: system-ui,
+				-apple-system,
+				'Segoe UI',
+				Roboto,
+				Helvetica,
+				Arial,
+				sans-serif,
+				'Apple Color Emoji',
+				'Segoe UI Emoji';
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				margin: 0;
+				width: 100%;
+				height: 400px;
+				background: #efefef;
+				border: 1px solid #bbbbbb;
+				border-radius: 10px;
+				color: white;
+				text-align: center;
+				}
+
+				p {
+				font-size: 20px;
+				text-shadow: 0 1px 0 #efefef;
+				animation: 5s ease 0s normal forwards 1 fadeIn;
+				}
+
+				.rightside, .leftside {
+				float: left;
+				width: 25%;
+				}
+
+				.rightside {
+				width: 75%;
+				}
+
+				.text_1, .text_2 {
+				color: black;
+				font-size: 3rem;
+				}
+
+				.text_1 {
+				animation: text1;
+				}
+
+				.text_2 {
+				animation: text2;
+				}
+
+				.text_1, .text_2 {
+				overflow: hidden;
+				white-space: nowrap;
+				display: inline-block;
+				position: relative;
+				animation-duration: 20s;
+				animation-timing-function: steps(25, end);
+				animation-iteration-count: infinite;
+				}
+
+				.text_1::after, .text_2::after {
+				content: "|";
+				position: absolute;
+				right: 0;
+				animation: caret infinite;
+				animation-duration: 1s;
+				animation-timing-function: steps(1, end);
+				}
+
+				@keyframes text2 {
+				0%, 50%, 100% {
+				width: 0;
+				}
+
+				60%, 90% {
+				width: 22em;
+				}
+				}
+
+				@keyframes text1 {
+				0%, 50%, 100% {
+				width: 0;
+				}
+				10%, 40% {
+				width: 17em;
+				}
+				}
+
+				@keyframes caret {
+				0%, 100% {
+				opacity: 0;
+				}
+				50% {
+				opacity: 1;
+				}
+				}
+
+			</style>
+			<div class="container">
+				<div class="leftside">
+					<img src="https://cdn.svarun.dev/gh/varunsridharan/sofy/pic1.jpg" alt="Sofy The Labrador"
+						 style="width: 50%;border-radius: 330px;">
+				</div>
+				<div class="rightside">
+					<span class="text_1">Hi There ! Myself Softy The Labrador</span>
+					<span class="text_2">I Would Love To Be Your Virtual Assistant</span>
+				</div>
+			</div>
+
+		</div>
+	</foreignObject>
+</svg>
